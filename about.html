@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="./output/output.css" />
   </head>
   <body>
     <!-- Start Navigation -->
     <header class="bg-black mt-2.5 mx-2.5 rounded-t-[10px]">
-      <nav class="flex justify-between items-center px-10 py-5">
+      <nav class="flex items-center justify-between px-10 py-5">
         <div>
           <img src="./images/logo.png" alt="" />
         </div>
-        <div class="border border-white/20 rounded-[60px]">
-          <ul
-            class="font-inter text-xs flex gap-x-[90px] text-white/70 py-7 px-44 uppercase"
+        <div
+          class="lg:bottom-0 lg:z-20 lg:hidden lg:mx-auto lg:justify-center lg:max-w-[1296px] mx-auto"
+        >
+          <div
+            class="border border-white/20 rounded-[60px] lg:bottom-0 lg:z-20 lg:bg-black"
           >
-            <li><a href="">About</a></li>
-            <li><a href="">Works</a></li>
-            <li><a href="">Case Studies</a></li>
-            <li><a href="">Experiments</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+            <ul
+              class="font-inter text-xs flex gap-x-[90px] xxl:gap-x-[60px] xl:px-24 text-white/70 py-7 px-44 uppercase"
+            >
+              <li><a href="">About</a></li>
+              <li><a href="">Works</a></li>
+              <li><a href="">Case Studies</a></li>
+              <li><a href="">Experiments</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div>
           <ul class="flex gap-x-[25px] items-center">
@@ -42,7 +48,7 @@
       >
         <div class="relative z-10 text-center">
           <h1 class="font-gallient text-[100px]">About Myself</h1>
-          <p class="text-lg text-white/70 flex justify-start">
+          <p class="flex justify-start text-lg text-white/70">
             <span class="font-semibold text-white">I'm Afrina</span>, a creative
             enthusiast with a passion for crafting user interfaces
             <br />
@@ -58,7 +64,7 @@
 
     <section>
       <div
-        class="max-w-[1296px] mx-auto grid grid-cols-2 pt-[116px] gap-x-[180px] place-items-center"
+        class="max-w-[1296px] mx-auto grid grid-cols-2 pt-[116px] gap-x-[180px] place-items-center px-[100px]"
       >
         <div>
           <div>
@@ -124,7 +130,7 @@
             <div
               class="w-9 h-9 mr-[15px] bg-black rounded-full flex justify-center"
             >
-              <span class="text-white text-2xl">+</span>
+              <span class="text-2xl text-white">+</span>
             </div>
             <p>Download my resume</p>
           </div>
@@ -164,7 +170,7 @@
           </p>
         </div>
 
-        <div class="absolute top-44 bottom-0">
+        <div class="absolute bottom-0 top-44">
           <img src="./images/contact/zigzag.png" alt="" />
         </div>
 

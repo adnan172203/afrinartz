@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="./output/output.css" />
   </head>
   <body class="">
     <!-- Start Navigation -->
     <header class="bg-black mt-2.5 mx-2.5 rounded-t-[10px]">
-      <nav class="flex justify-between items-center px-10 py-5">
+      <nav class="flex items-center justify-between px-10 py-5">
         <div>
           <img src="./images/logo.png" alt="" />
         </div>
-        <div class="border border-white/20 rounded-[60px]">
-          <ul
-            class="font-inter text-xs flex gap-x-[90px] text-white/70 py-7 px-44 uppercase"
+        <div
+          class="lg:bottom-0 lg:z-20 lg:hidden lg:mx-auto lg:justify-center lg:max-w-[1296px] mx-auto"
+        >
+          <div
+            class="border border-white/20 rounded-[60px] lg:bottom-0 lg:z-20 lg:bg-black"
           >
-            <li><a href="">About</a></li>
-            <li><a href="">Works</a></li>
-            <li><a href="">Case Studies</a></li>
-            <li><a href="">Experiments</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+            <ul
+              class="font-inter text-xs flex gap-x-[90px] xxl:gap-x-[60px] xl:px-24 text-white/70 py-7 px-44 uppercase"
+            >
+              <li><a href="">About</a></li>
+              <li><a href="">Works</a></li>
+              <li><a href="">Case Studies</a></li>
+              <li><a href="">Experiments</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div>
           <ul class="flex gap-x-[25px] items-center">
@@ -38,33 +44,38 @@
 
     <section class="bg-black text-white mx-2.5 rounded-b-[10px]">
       <div
-        class="relative bg-black text-white min-h-screen flex items-center justify-center overflow-hidden px-4 py-8 width-1296px"
+        class="relative flex items-center justify-center px-4 py-8 overflow-hidden text-white bg-black width-1296px"
       >
         <div class="absolute">
           <img src="/images/banner/ellipse.svg" alt="" />
         </div>
         <div class="relative z-10 text-center">
           <p
-            class="flex text-sm md:text-base lg:text-lg opacity-70 mb-4 md:mb-6 lg:mb-8"
+            class="flex mb-4 text-sm text-left md:text-base lg:text-lg opacity-70 md:mb-6 lg:mb-8"
           >
             Hello, I am Afrina,<br />who loves to combine
           </p>
 
-          <h1 class="font-gallient text-[170px] leading-[180px]">
+          <h1
+            class="font-gallient text-[170px] leading-[180px] xxl:text-[140px] xl:text-[120px] lg:text-[100px]"
+          >
             Awesome design
           </h1>
 
           <div class="mb-4 md:mb-6 lg:mb-8">
-            <p class="text-sm md:text-base lg:text-lg opacity-70 mb-5 md:mb-4">
+            <p
+              class="text-sm md:text-base lg:text-lg opacity-70 mb-5 md:mb-4 xxl:mr-[63px]"
+            >
               with human-centric
             </p>
             <h2
-              class="flex justify-end text-[170px] font-gallient leading-[150px] mr-[-95px]"
+              class="flex justify-end text-[170px] font-gallient leading-[150px] mr-[-95px] xxl:mr-[-60px] xxl:text-[140px] xl:text-[120px] lg:text-[100px]"
             >
               Experience
             </h2>
+
             <p
-              class="text-sm md:text-base lg:text-lg opacity-70 flex justify-end mr-[-95px]"
+              class="text-sm md:text-base lg:text-lg opacity-70 flex justify-end mr-[-95px] text-right xxl:mr-[-54px]"
             >
               for a seamless<br />interaction
             </p>
@@ -78,24 +89,22 @@
     <!-- Project Section -->
 
     <section>
-      <div class="grid grid-cols-2 max-w-[1296px] mx-auto gap-[88px]">
+      <div
+        class="grid grid-cols-2 max-w-[1296px] mx-auto gap-[88px] xxl:px-5 lg:px-[100px] xxl:gap-[60px] lg:grid-cols-1"
+      >
         <div>
-          <!-- <h2 class="relative text-[80px] font-gallient mt-[140px] z-20">
-            I thrive on sharing my designs
-            <span
-              class="bg-yellow-400 w-[137px] h-[73px] absolute left-[180px] rounded-lg z-[1]"
-            ></span>
-          </h2> -->
           <div class="relative mt-[140px] mb-[100px]">
-            <h2 class="relative text-[80px] font-gallient z-[20]">
-              I thrive on sharing my designs
+            <h2
+              class="relative text-[80px] font-gallient z-[20] xxl:text-[70px] lg:text-[60px]"
+            >
+              I thrive on sharing <br />my designs
             </h2>
             <span
-              class="bg-[#F3D333] w-[137px] h-[73px] absolute left-[180px] top-[140px] rounded-lg z-[10] transform -rotate-12"
+              class="bg-[#F3D333] w-[137px] h-[73px] absolute left-[180px] top-[140px] rounded-lg z-[10] transform -rotate-12 xxl:top-[111px] xxl:left-[160px] lg:top-[89px] lg:left-[131px]"
             ></span>
           </div>
           <div>
-            <div class="bg-[#E6EDE3] mb-[88px] rounded-[20px]">
+            <div class="bg-[#E6EDE3] mb-[88px] lg:mb-[60px] rounded-[20px]">
               <div class="px-[70px] pt-[60px]">
                 <span
                   class="bg-[#00B67A] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
@@ -111,7 +120,7 @@
               </div>
               <img src="./images/project/1.png" alt="" />
             </div>
-            <div class="bg-[#EDE3E3] mb-[152px] rounded-[20px]">
+            <div class="bg-[#EDE3E3] mb-[152px] lg:mb-0 rounded-[20px]">
               <div class="px-[70px] pt-[60px] pb-[47px]">
                 <span
                   class="bg-black text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
@@ -131,8 +140,8 @@
           </div>
         </div>
         <div>
-          <div class="mt-[120px] relative">
-            <div class="bg-[#E3EBED] mb-[88px] rounded-[20px]">
+          <div class="mt-[120px] lg:mt-0 relative">
+            <div class="bg-[#E3EBED] mb-[88px] lg:mb-[60px] rounded-[20px]">
               <div class="px-[70px] pt-[60px] pb-[47px]">
                 <span
                   class="bg-[#0A55E5] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
@@ -149,7 +158,7 @@
               <img src="./images/project/3.png" alt="" />
             </div>
 
-            <div class="bg-[#E7E6F1] mb-[88px] rounded-[20px]">
+            <div class="bg-[#E7E6F1] mb-[70px] rounded-[20px]">
               <div class="px-[70px] pt-[60px] pb-[47px]">
                 <span
                   class="bg-[#6560F0] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
@@ -167,7 +176,9 @@
               <img src="./images/project/4.png" alt="" />
             </div>
 
-            <div class="w-[244px] h-[244px] relative top-20 left-44">
+            <div
+              class="w-[280px] h-[283px] relative top-20 left-44 xxl:top-16 lg:flex lg:justify-center lg:left-0 lg:mx-auto"
+            >
               <div
                 class="absolute inset-0 animate-spin-slow font-inter text-[6px]"
               >
@@ -189,14 +200,12 @@
 
               <div class="absolute inset-0 flex items-center justify-center">
                 <div
-                  class="w-16 h-16 bg-black rounded-full flex items-center justify-center"
+                  class="flex items-center justify-center w-16 h-16 bg-black rounded-full"
                 >
-                  <span class="text-white text-2xl">+</span>
+                  <span class="text-2xl text-white">+</span>
                 </div>
               </div>
             </div>
-
-            <!-- animation end -->
           </div>
         </div>
       </div>
@@ -205,7 +214,7 @@
 
     <!-- Case Studies -->
 
-    <section class="bg-black">
+    <section class="bg-black lg:mt-[150px]">
       <div class="max-w-[1296px] mx-auto pt-[120px]">
         <div>
           <h1 class="font-gallient text-white text-[170px] text-center">
@@ -214,12 +223,16 @@
         </div>
 
         <div>
-          <div class="flex justify-start">
+          <div
+            class="flex justify-start lg:flex-col lg:items-center lg:text-left"
+          >
             <div class="flex-shrink-0">
               <img src="./images/case-studies/case-1.png" alt="" />
             </div>
 
-            <div class="font-inter ml-[69px] mt-[104px] w-[378px]">
+            <div
+              class="font-inter ml-[69px] mt-[104px] w-[378px] lg:ml-0 lg:w-[574px] lg:mt-[50px]"
+            >
               <p class="text-[#FFC271] uppercase tracking-widest text-xs">
                 A Compettive analysis on
               </p>
@@ -238,19 +251,23 @@
                   class="flex justify-center items-center w-9 h-9 rounded-full border border-[#3A3A3A] text-white mr-3"
                   >+</span
                 >
-                <p class="text-white text-xs tracking-widest uppercase">
+                <p class="text-xs tracking-widest text-white uppercase">
                   view case studies
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="flex flex-row-reverse justify-start pb-[128px]">
+          <div
+            class="flex flex-row-reverse justify-start pb-[128px] lg:flex-col lg:items-center lg:text-left lg:mt-[80px]"
+          >
             <div class="flex-shrink-0">
               <img src="./images/case-studies/case-2.png" alt="" />
             </div>
 
-            <div class="font-inter mr-[69px] mt-[104px] w-[378px]">
+            <div
+              class="font-inter mr-[69px] mt-[104px] w-[378px] lg:ml-0 lg:w-[574px] lg:mt-[50px]"
+            >
               <p class="text-[#FFC271] uppercase tracking-widest text-xs">
                 A Compettive analysis on
               </p>
@@ -269,7 +286,7 @@
                   class="flex justify-center items-center w-9 h-9 rounded-full border border-[#3A3A3A] text-white mr-3"
                   >+</span
                 >
-                <p class="text-white text-xs tracking-widest uppercase">
+                <p class="text-xs tracking-widest text-white uppercase">
                   view case studies
                 </p>
               </div>
@@ -283,24 +300,24 @@
 
     <!-- start Experiment -->
     <section class="pt-[106px]">
-      <div class="max-w-[1296px] mx-auto">
+      <div class="max-w-[1296px] mx-auto xxl:px-[100px]">
         <div class="relative">
           <div class="relative pb-[106px]">
             <h2 class="relative font-gallient text-[80px] z-20">
               I find joy in translating concepts <br />
               into tangible experiences
             </h2>
-            <span
-              class="bg-[#F3D333] w-[137px] h-[73px] absolute right-[380px] top-[20px] rounded-lg z-[10] transform -rotate-12"
-            ></span>
+            <!-- <span
+              class="bg-[#F3D333] w-[137px] h-[73px] absolute left-[780px] top-[20px] rounded-lg z-[10] transform -rotate-12 xxl:right-[184px]"
+            ></span> -->
           </div>
           <div
             class="absolute inset-0 flex items-center justify-end right-0 top-[-85px]"
           >
             <div
-              class="w-16 h-16 bg-black rounded-full flex items-center justify-center"
+              class="flex items-center justify-center w-16 h-16 bg-black rounded-full"
             >
-              <span class="text-white text-2xl">+</span>
+              <span class="text-2xl text-white">+</span>
             </div>
           </div>
         </div>
@@ -315,11 +332,11 @@
               autoplay
               loop
               muted
-              class="w-full h-full object-cover rounded-lg"
+              class="object-cover w-full h-full rounded-lg"
             ></video>
           </div>
           <div
-            class="video-container w-[636px] transition-all duration-300 ease-in-out group-hover:w-1/4 hover:w-1/2 hover:z-10 z-20"
+            class="video-container w-[636px] transition-all duration-300 ease-in-out group-hover:w-1/4 hover:w-1/2 hover:z-10 z-20 lg:w-[306px]"
           >
             <video
               src="./images/experiments-video/experiment-2.mp4"
@@ -327,7 +344,7 @@
               autoplay
               loop
               muted
-              class="w-full h-full object-cover rounded-lg"
+              class="object-cover w-full h-full rounded-lg"
             ></video>
           </div>
           <div
@@ -339,7 +356,7 @@
               autoplay
               loop
               muted
-              class="w-full h-full object-cover rounded-lg"
+              class="object-cover w-full h-full rounded-lg"
             ></video>
           </div>
         </div>
@@ -353,10 +370,9 @@
       >
         <div class="mx-auto text-center relative mt-[120px]">
           <h2
-            class="font-gallient text-[80px] font-normal z-20 relative tracking-widest"
+            class="font-gallient text-[80px] font-normal z-20 relative tracking-wide"
           >
-            Let<span class="absolute top-[-51px] right-[780px]">,</span>s
-            Connect
+            Let<span class="relative top-[-51px] left-0">,</span>s Connect
           </h2>
           <span
             class="bg-[#F3D333] w-[137px] h-[73px] absolute right-[480px] top-[20px] rounded-lg z-[10] transform -rotate-12"
@@ -373,7 +389,7 @@
           </p>
         </div>
 
-        <div class="absolute top-44 bottom-0">
+        <div class="absolute bottom-0 top-44">
           <img src="./images/contact/zigzag.png" alt="" />
         </div>
 

@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="./output/output.css" />
   </head>
   <body>
     <!-- Start Navigation -->
     <header class="bg-black mt-2.5 mx-2.5 rounded-t-[10px]">
-      <nav class="flex justify-between items-center px-10 py-5">
+      <nav class="flex items-center justify-between px-10 py-5">
         <div>
           <img src="./images/logo.png" alt="" />
         </div>
-        <div class="border border-white/20 rounded-[60px]">
-          <ul
-            class="font-inter text-xs flex gap-x-[90px] text-white/70 py-7 px-44 uppercase"
+        <div
+          class="lg:bottom-0 lg:z-20 lg:hidden lg:mx-auto lg:justify-center lg:max-w-[1296px] mx-auto"
+        >
+          <div
+            class="border border-white/20 rounded-[60px] lg:bottom-0 lg:z-20 lg:bg-black"
           >
-            <li><a href="">About</a></li>
-            <li><a href="">Works</a></li>
-            <li><a href="">Case Studies</a></li>
-            <li><a href="">Experiments</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+            <ul
+              class="font-inter text-xs flex gap-x-[90px] xxl:gap-x-[60px] xl:px-24 text-white/70 py-7 px-44 uppercase"
+            >
+              <li><a href="">About</a></li>
+              <li><a href="">Works</a></li>
+              <li><a href="">Case Studies</a></li>
+              <li><a href="">Experiments</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div>
           <ul class="flex gap-x-[25px] items-center">
@@ -39,11 +45,11 @@
     <section class="">
       <div class="bg-black text-white mx-2.5 rounded-b-[10px] relative">
         <div
-          class="relative pt-[164px] pb-[194px] flex items-center justify-start overflow-hidden px-4 width-1296px pl-[295px]"
+          class="relative pt-[164px] pb-[194px] flex items-center justify-start overflow-hidden px-4 width-1296px pl-[295px] xxl:pl-[60px]"
         >
           <div class="relative z-10">
             <h1 class="font-gallient text-[100px]">Works</h1>
-            <p class="text-lg text-white/70 flex">
+            <p class="flex text-lg text-white/70">
               I'm driven to create meaningful interactions that <br />
               resonate itself.
             </p>
@@ -53,11 +59,13 @@
 
       <!-- End Banner section -->
       <!-- absolute top-[366px] -->
-      <div class="grid grid-cols-2 max-w-[1296px] mx-auto gap-[88px]">
+      <div
+        class="grid grid-cols-2 max-w-[1296px] mx-auto gap-[88px] xl:px-[40px] xs:px-[30px] md:grid-cols-1 md:px-[80px]"
+      >
         <div class="mt-[88px]">
           <div>
             <div class="bg-[#E6EDE3] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px]">
+              <div class="px-[70px] pt-[60px] sm:px-[60px] xs:px-[40px]">
                 <span
                   class="bg-[#00B67A] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >lms</span
@@ -73,7 +81,9 @@
               <img src="./images/project/1.png" alt="" />
             </div>
             <div class="bg-[#EDE3E3] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-black text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >streaming</span
@@ -90,7 +100,9 @@
               <img src="./images/project/2.png" alt="" />
             </div>
             <div class="bg-[#F1EBE7] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-[#BA8D6C] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >architecture</span
@@ -107,7 +119,9 @@
               <img src="./images/project/6.png" alt="" />
             </div>
             <div class="bg-[#F3E7F1] mb-[150px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-[#E3088F] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >ai startup</span
@@ -125,10 +139,12 @@
             </div>
           </div>
         </div>
-        <div class="w-[604px] right-60 mt-[-200px]">
+        <div class="mt-[-200px]">
           <div class="relative">
             <div class="bg-[#E3EBED] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-[#0A55E5] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >medical</span
@@ -144,7 +160,9 @@
               <img src="./images/project/3.png" alt="" />
             </div>
             <div class="bg-[#E7E6F1] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-[#6560F0] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >dashboard</span
@@ -161,7 +179,9 @@
               <img src="./images/project/4.png" alt="" />
             </div>
             <div class="bg-[#E6F1E7] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-[#6560F0] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >dashboard</span
@@ -178,7 +198,9 @@
               <img src="./images/project/5.png" alt="" />
             </div>
             <div class="bg-[#E9EEF2] mb-[88px] rounded-[20px]">
-              <div class="px-[70px] pt-[60px] pb-[47px]">
+              <div
+                class="px-[70px] pt-[60px] pb-[47px] sm:px-[60px] xs:px-[40px]"
+              >
                 <span
                   class="bg-[#6560F0] text-white px-[12px] py-[4px] rounded-2xl font-inter text-xs font-normal tracking-[6px] uppercase"
                   >dashboard</span
@@ -227,7 +249,7 @@
           </p>
         </div>
 
-        <div class="absolute top-44 bottom-0">
+        <div class="absolute bottom-0 top-44">
           <img src="./images/contact/zigzag.png" alt="" />
         </div>
 

@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="./output/output.css" />
   </head>
-  <body>
+  <body class="border-2 border-red-600">
     <!-- Start Navigation -->
     <header class="bg-black mt-2.5 mx-2.5 rounded-t-[10px]">
-      <nav class="flex justify-between items-center px-10 py-5">
+      <nav class="flex items-center justify-between px-10 py-5">
         <div>
           <img src="./images/logo.png" alt="" />
         </div>
-        <div class="border border-white/20 rounded-[60px]">
-          <ul
-            class="font-inter text-xs flex gap-x-[90px] text-white/70 py-7 px-44 uppercase"
+        <div
+          class="lg:bottom-0 lg:z-20 lg:hidden lg:mx-auto lg:justify-center lg:max-w-[1296px] mx-auto"
+        >
+          <div
+            class="border border-white/20 rounded-[60px] lg:bottom-0 lg:z-20 lg:bg-black"
           >
-            <li><a href="">About</a></li>
-            <li><a href="">Works</a></li>
-            <li><a href="">Case Studies</a></li>
-            <li><a href="">Experiments</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+            <ul
+              class="font-inter text-xs flex gap-x-[90px] xxl:gap-x-[60px] xl:px-24 text-white/70 py-7 px-44 uppercase"
+            >
+              <li><a href="">About</a></li>
+              <li><a href="">Works</a></li>
+              <li><a href="">Case Studies</a></li>
+              <li><a href="">Experiments</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div>
           <ul class="flex gap-x-[25px] items-center">
@@ -154,93 +160,107 @@
           </h2>
         </div>
       </div>
-      <div class="flex gap-6 max-w-[1560px] mx-auto mt-[-450px] z-20 relative">
-        <div class="bg-[#E6EDE3] h-[338px] w-[240px] rounded-[30px]">
-          <div class="px-[30px] pt-[30px] pb-10">
+      <div
+        class="gap-6 xl:gap-0 max-w-[1560px] mx-auto mt-[-450px] z-20 relative grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] place-items-center"
+      >
+        <div
+          class="bg-[#E6EDE3] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px]"
+        >
+          <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
               src="./images/work-process/1.svg"
               alt=""
-              class="bg-white p-4 rounded-full mb-[49px]"
+              class="bg-white p-4 rounded-full mb-[49px] xl:mx-auto"
             />
             <h3 class="text-lg font-inter mb-[51px]">
               Competitive <br /><span class="font-black">Analysis</span>
             </h3>
-            <p class="text-base font-inter text-[#656565]">
+            <p class="text-base font-inter text-[#656565] xl:hidden">
               My first step is to do a competitive analysis.
             </p>
           </div>
         </div>
-        <div class="bg-[#E3EBED] h-[338px] w-[240px] rounded-[30px] mt-[35px]">
-          <div class="px-[30px] pt-[30px] pb-10">
+        <div
+          class="bg-[#E3EBED] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px]"
+        >
+          <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
               src="./images/work-process/1.svg"
               alt=""
-              class="bg-white p-4 rounded-full mb-[49px]"
+              class="bg-white p-4 rounded-full mb-[49px] xl:mx-auto"
             />
             <h3 class="text-lg font-inter mb-[51px]">
               Competitive <br /><span class="font-black">Analysis</span>
             </h3>
-            <p class="text-base font-inter text-[#656565]">
+            <p class="text-base font-inter text-[#656565] xl:hidden">
               My first step is to do a competitive analysis.
             </p>
           </div>
         </div>
-        <div class="bg-[#EDE3E3] h-[338px] w-[240px] rounded-[30px]">
-          <div class="px-[30px] pt-[30px] pb-10">
+        <div
+          class="bg-[#EDE3E3] h-[338px] rounded-[30px] xl:h-[218px] xl:w-[150px]"
+        >
+          <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
               src="./images/work-process/1.svg"
               alt=""
-              class="bg-white p-4 rounded-full mb-[49px]"
+              class="bg-white p-4 rounded-full mb-[49px] xl:mx-auto"
             />
             <h3 class="text-lg font-inter mb-[51px]">
               Competitive <br /><span class="font-black">Analysis</span>
             </h3>
-            <p class="text-base font-inter text-[#656565]">
+            <p class="text-base font-inter text-[#656565] xl:hidden">
               My first step is to do a competitive analysis.
             </p>
           </div>
         </div>
-        <div class="bg-[#E7E6F1] h-[338px] w-[240px] rounded-[30px] mt-[35px]">
-          <div class="px-[30px] pt-[30px] pb-10">
+        <div
+          class="bg-[#E7E6F1] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px]"
+        >
+          <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
               src="./images/work-process/1.svg"
               alt=""
-              class="bg-white p-4 rounded-full mb-[49px]"
+              class="bg-white p-4 rounded-full mb-[49px] xl:mx-auto"
             />
             <h3 class="text-lg font-inter mb-[51px]">
               Competitive <br /><span class="font-black">Analysis</span>
             </h3>
-            <p class="text-base font-inter text-[#656565]">
+            <p class="text-base font-inter text-[#656565] xl:hidden">
               My first step is to do a competitive analysis.
             </p>
           </div>
         </div>
-        <div class="bg-[#F1EBE7] h-[338px] w-[240px] rounded-[30px]">
-          <div class="px-[30px] pt-[30px] pb-10">
+        <div
+          class="bg-[#F1EBE7] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px]"
+        >
+          <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
               src="./images/work-process/1.svg"
               alt=""
-              class="bg-white p-4 rounded-full mb-[49px]"
+              class="bg-white p-4 rounded-full mb-[49px] xl:mx-auto"
             />
             <h3 class="text-lg font-inter mb-[51px]">
               Competitive <br /><span class="font-black">Analysis</span>
             </h3>
-            <p class="text-base font-inter text-[#656565]">
+            <p class="text-base font-inter text-[#656565] xl:hidden">
               My first step is to do a competitive analysis.
             </p>
           </div>
         </div>
-        <div class="bg-[#F3E7F1] h-[338px] w-[240px] rounded-[30px] mt-[35px]">
-          <div class="px-[30px] pt-[30px] pb-10">
+        <div
+          class="bg-[#F3E7F1] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px]"
+        >
+          <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
               src="./images/work-process/1.svg"
               alt=""
-              class="bg-white p-4 rounded-full mb-[49px]"
+              class="bg-white p-4 rounded-full mb-[49px] xl:mx-auto"
             />
             <h3 class="text-lg font-inter mb-[51px]">
               Main <br /><span class="font-black">Design</span>
             </h3>
-            <p class="text-base font-inter text-[#656565]">
+            <p class="text-base font-inter text-[#656565] xl:hidden">
               My first step is to do a competitive analysis.
             </p>
           </div>
@@ -260,7 +280,7 @@
         <div class="flex gap-1 mb-[30px]">
           <span> ▪ </span>
           <p class="text-base text-[#656565]">
-            <span class="font-medium text-black uppercase text-sm"
+            <span class="text-sm font-medium text-black uppercase"
               >Personalized Content:</span
             >
             Studies show that personalized user experiences can increase
@@ -272,7 +292,7 @@
         <div class="flex gap-1 mb-[30px]">
           <span> ▪ </span>
           <p class="text-base text-[#656565]">
-            <span class="font-medium text-black uppercase text-sm"
+            <span class="text-sm font-medium text-black uppercase"
               >Mobile Optimization:</span
             >
             With over 60% of users accessing health-related websites on mobile
@@ -285,7 +305,7 @@
         <div class="flex gap-1 mb-[30px]">
           <span> ▪ </span>
           <p class="text-base text-[#656565]">
-            <span class="font-medium text-black uppercase text-sm"
+            <span class="text-sm font-medium text-black uppercase"
               >Simplified Navigation & Accessibility:</span
             >
             Users are 80% more likely to stay on a site with intuitive
@@ -298,7 +318,7 @@
         <div class="flex gap-1 mb-[30px]">
           <span> ▪ </span>
           <p class="text-base text-[#656565]">
-            <span class="font-medium text-black uppercase text-sm"
+            <span class="text-sm font-medium text-black uppercase"
               >Trust & Security:</span
             >
             Medical sites with strong security signals (SSL certificates,
@@ -310,7 +330,7 @@
         <div class="flex gap-1 mb-[175px]">
           <span> ▪ </span>
           <p class="text-base text-[#656565]">
-            <span class="font-medium text-black uppercase text-sm"
+            <span class="text-sm font-medium text-black uppercase"
               >Interactive Tools & Features:</span
             >
             Features like symptom checkers, appointment scheduling, and patient
@@ -418,7 +438,7 @@
           </p>
         </div>
 
-        <div class="absolute top-44 bottom-0">
+        <div class="absolute bottom-0 top-44">
           <img src="./images/contact/zigzag.png" alt="" />
         </div>
 

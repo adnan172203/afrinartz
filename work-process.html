@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./output/output.css" />
   </head>
-  <body class="border-2 border-red-600">
+  <body class>
     <!-- Start Navigation -->
     <header class="bg-black mt-2.5 mx-2.5 rounded-t-[10px]">
       <nav class="flex items-center justify-between px-10 py-5">
@@ -50,7 +50,9 @@
       >
         <div class="relative z-10 text-center">
           <div class="relative">
-            <h1 class="font-gallient text-[120px] leading-[180px]">
+            <h1
+              class="font-gallient text-[120px] xl:text-[80px] md:text-[65px]"
+            >
               Hospa Healthcare Website
             </h1>
 
@@ -60,7 +62,7 @@
             >
           </div>
 
-          <div class="flex justify-center gap-5">
+          <div class="flex flex-wrap justify-center gap-5">
             <div class="bg-[#2D313A] rounded-full">
               <div class="py-[15px] px-5 flex items-center">
                 <img
@@ -110,8 +112,18 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center mt-[-483px] relative z-20">
-        <img src="./images/work-process/work-1.png" alt="" />
+      <div class="flex justify-center mt-[-483px] relative z-20 gap-6 px-5">
+        <div class="md:hidden">
+          <img src="./images/work-process/work-1.png" alt="" class="mb-6" />
+          <img src="./images/work-process/work-2.png" alt="" />
+        </div>
+        <div class="md:mt-20 sm:mt-64">
+          <img src="./images/work-process/work-big-3.png" alt="" />
+        </div>
+        <div class="lg:hidden">
+          <img src="./images/work-process/work-4.png" alt="" class="mb-6" />
+          <img src="./images/work-process/work-5.png" alt="" />
+        </div>
       </div>
     </section>
 
@@ -119,7 +131,7 @@
 
     <!-- About The Project -->
 
-    <section class="mt-[250px] max-w-[856px] mx-auto">
+    <section class="mt-[100px] max-w-[856px] mx-auto lg:px-10">
       <div>
         <h2 class="font-inter text-2xl mb-[15px]">
           About <span class="font-black">The Project</span>
@@ -152,7 +164,7 @@
 
     <section class="relative mx-auto mt-[100px]">
       <div
-        class="bg-black max-w-[1296px] h-[593px] mx-auto relative z-10 rounded-[20px]"
+        class="bg-black max-w-[1296px] h-[593px] md:h-[710px] mx-auto relative z-10 rounded-[20px]"
       >
         <div>
           <h2 class="text-2xl text-white font-inter pt-[71px] text-center">
@@ -161,7 +173,7 @@
         </div>
       </div>
       <div
-        class="gap-6 xl:gap-0 max-w-[1560px] mx-auto mt-[-450px] z-20 relative grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] place-items-center"
+        class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] xl:grid-cols-6 sm:grid-cols-2 md:grid-cols-4 place-items-center gap-6 xl:gap-0 max-w-[1560px] mx-auto mt-[-450px] md:mt-[-570px] z-20 relative xl:px-16 lg:px-6"
       >
         <div
           class="bg-[#E6EDE3] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px]"
@@ -214,6 +226,7 @@
             </p>
           </div>
         </div>
+
         <div
           class="bg-[#E7E6F1] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px]"
         >
@@ -230,6 +243,11 @@
               My first step is to do a competitive analysis.
             </p>
           </div>
+        </div>
+        <div
+          class="h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px] hidden md:block sm:hidden"
+        >
+          <!-- Blank -->
         </div>
         <div
           class="bg-[#F1EBE7] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px]"
@@ -249,7 +267,7 @@
           </div>
         </div>
         <div
-          class="bg-[#F3E7F1] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px]"
+          class="bg-[#F3E7F1] h-[338px] xl:h-[218px] xl:w-[150px] rounded-[30px] mt-[35px] md:mt-[-30px] sm:mt-[35px]"
         >
           <div class="px-[30px] pt-[30px] pb-10 xl:text-center">
             <img
@@ -272,7 +290,7 @@
 
     <!-- key Insight -->
     <section>
-      <div class="max-w-[856px] mx-auto mt-[135px]">
+      <div class="max-w-[856px] mx-auto mt-[135px] lg:px-10">
         <h2 class="font-inter text-2xl mb-[15px]">
           Key <span class="font-black">Insights</span>
         </h2>
@@ -346,13 +364,19 @@
     <!-- Some Secrets Here -->
 
     <section class="relative">
-      <div class="bg-[#E3EBED] rounded-[30px] h-[1739px] mx-[50px] relative">
-        <div class="top-[-100px] absolute w-full flex justify-center z-20">
-          <h2 class="font-gallient text-[120px]">Some Screens Are Here</h2>
+      <div class="bg-[#E3EBED] rounded-[30px] mx-[50px] relative">
+        <div
+          class="top-[-100px] xl:top-[-70px] lg:top-[-60px] md:top-[-50px] sm:top-[-40px] xxs:top-[-30px] absolute w-full flex justify-center z-20 sm:px-5 sm:text-center"
+        >
+          <h2
+            class="font-gallient text-[120px] xl:text-[90px] lg:text-[80px] md:text-[60px] sm:text-[50px] xxs:text-[40px]"
+          >
+            Some Screens Are Here
+          </h2>
         </div>
 
         <div
-          class="flex max-w-[1600px] mx-auto justify-center gap-14 pt-[101px]"
+          class="flex sm:flex-col max-w-[1600px] mx-auto justify-center gap-14 pt-[101px] px-5 xl:px-10"
         >
           <div>
             <div class="mb-14">
@@ -369,7 +393,7 @@
                 class="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
-            <div class="mb-14">
+            <div class="mb-14 sm:mb-0">
               <img
                 src="./images/screen/screen-3.jpg"
                 alt=""
@@ -386,7 +410,7 @@
                 class="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
-            <div class="">
+            <div class="sm:mb-10">
               <img
                 src="./images/screen/screen-5.jpg"
                 alt=""
